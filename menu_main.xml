@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_explicit_intents"
+        android:title="Явні наміри"
+        app:showAsAction="never">
+
+        <menu>
+            <item
+                android:id="@+id/menu_location"
+                android:title="Координати" />
+            <item
+                android:id="@+id/menu_weather"
+                android:title="Погода" />
+            <item
+                android:id="@+id/menu_date"
+                android:title="Дата" />
+            <item
+                android:id="@+id/menu_time"
+                android:title="Час" />
+            <item
+                android:id="@+id/menu_call"
+                android:title="Дзвінок" />
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_exit"
+        android:title="Вихід"
+        app:showAsAction="never" />
+</menu>

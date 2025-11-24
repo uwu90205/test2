@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<item
+    android:id="@+id/action_copy"
+    android:title="Копіювати"
+    android:icon="@drawable/ic_copy"
+    app:showAsAction="always" />
+
+    <item
+        android:id="@+id/action_sort_asc"
+        android:title="А-Я"
+        android:icon="@drawable/ic_sort_asc"
+        app:showAsAction="always" />
+<item
+    android:id="@+id/action_sort_desc"
+    android:title="Я-А"
+    android:icon="@drawable/ic_sort_desc"
+    app:showAsAction="always" />
+
+</menu>

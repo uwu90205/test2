@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/popup_show_all"
+        android:title="Вивести всі записи таблиці" />
+
+    <item
+        android:id="@+id/popup_search"
+        android:title="Виконати пошук по запиту" />
+
+</menu>
